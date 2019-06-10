@@ -1,0 +1,34 @@
+
+
+<div class="jumbotron">
+  <div class="container">
+
+
+		<p><b>Name:</b> <%= @planet["name"] %></p>
+		<p><b>Diameter:</b> <%= @planet["diameter"] %></p>
+		<p><b>Rotation Period:</b> <%= @planet["rotation_period"] %></p>
+		<p><b>Orbital Period:</b> <%= @planet["orbital_period"] %></p>
+		<p><b>Gravity:</b> <%= @planet["gravity"] %></p>
+		<p><b>Population:</b> <%= @planet["population"] %></p>
+		<p><b>Climate:</b> <%= @planet["climate"] %></p>
+		<p><b>Terrain:</b> <%= @planet["terrain"] %></p>
+		<p><b>Surface Water:</b> <%= @planet["surface_water"] %></p>
+
+		<p><b>Residents:</b> <% @characters_names.each do |char| %>
+					-<a href="/characters/<%= char[1]%>"><%= char[0] %></a>
+						<% end %>
+		</p>
+
+		<p><b>Films:</b> <% @films_titles.each do |film| %>
+					-<a href="/films/<%= film[1]%>"><%= film[0] %></a>
+						<% end %>
+		</p>
+
+
+		<p><b>URL Source:</b> <%= @planet["url"] %></p>
+		<p><b>Created:</b> <%= @planet["created"] %></p>
+		<p><b>Edited:</b> <%= @planet["edited"] %></p>
+
+
+  </div>
+</div>

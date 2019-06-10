@@ -1,0 +1,44 @@
+
+
+
+<div class="jumbotron">
+  <div class="container">
+
+
+		<p><b>Title:</b> <%= @film["title"] %></p>
+		<p><b>Episode number:</b> <%= @film["episode_id"] %></p>
+		<p><b>Opening crawl:</b> <%= @film["opening_crawl"] %></p>
+		<p><b>Director:</b> <%= @film["director"] %></p>
+		<p><b>Producer:</b> <%= @film["producer"] %></p>
+		<p><b>Release date:</b> <%= @film["release_date"] %></p>
+
+
+		<p><b>Starships:</b> <% @starships_names.each do |starship| %>
+					-<a href="/starships/<%= starship[1]%>"><%= starship[0] %></a>
+						<% end %>
+		</p>
+
+
+		<p><b>Characters:</b> <% @characters_names.each do |char| %>
+					-<a href="/characters/<%= char[1]%>"><%= char[0] %></a>
+						<% end %>
+		</p>
+
+
+		<p><b>Planets:</b> <% @planets_names.each do |planet| %>
+					-<a href="/planets/<%= planet[1]%>"><%= planet[0] %></a>
+						<% end %>
+		</p>
+
+
+		<p><b>URL Source:</b> <%= @film["url"] %></p>
+		<p><b>Created:</b> <%= @film["created"] %></p>
+		<p><b>Edited:</b> <%= @film["edited"] %></p>
+
+
+
+  </div>
+</div>
+
+
+

@@ -1,0 +1,40 @@
+
+
+
+<div class="jumbotron">
+  <div class="container">
+
+
+		<p><b>Name:</b> <%= @character["name"] %></p>
+		<p><b>Birth year:</b> <%= @character["birth_year"] %></p>
+		<p><b>Eye color:</b> <%= @character["eye_color"] %></p>
+		<p><b>Gender:</b> <%= @character["gender"] %></p>
+		<p><b>Hair color:</b> <%= @character["hair_color"] %></p>
+		<p><b>Height:</b> <%= @character["height"] %></p>
+		<p><b>Mass:</b> <%= @character["mass"] %></p>
+		<p><b>Skin color:</b> <%= @character["skin_color"] %></p>
+
+
+		<p><b>Homeworld:</b> <% @planets_names %>
+					-<a href="/planets/<%= @planets_names[1]%>"><%= @planets_names[0] %></a>
+		</p>
+
+		<p><b>Films:</b> <% @films_titles.each do |film| %>
+					-<a href="/films/<%= film[1]%>"><%= film[0] %></a>
+						<% end %>
+		</p>
+
+		<p><b>Starships:</b> <% @starships_names.each do |starship| %>
+					-<a href="/starships/<%= starship[1]%>"><%= starship[0] %></a>
+						<% end %>
+		</p>
+
+
+		<p><b>URL Source:</b> <%= @character["url"] %></p>
+		<p><b>Created:</b> <%= @character["created"] %></p>
+		<p><b>Edited:</b> <%= @character["edited"] %></p>
+
+
+
+  </div>
+</div>
