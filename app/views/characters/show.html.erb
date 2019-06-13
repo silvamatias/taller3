@@ -4,36 +4,33 @@
 <div class="jumbotron">
   <div class="container">
 
+		<div class="caption">
+		<h3><b>CHARACTER</b><h3>
+		</div>
+		<p><b>Name:</b> <%= @character.name %></p>
+		<p><b>Birth year:</b> <%= @character.birth_year %></p>
+		<p><b>Eye color:</b> <%= @character.eye_color %></p>
+		<p><b>Gender:</b> <%= @character.gender %></p>
+		<p><b>Hair color:</b> <%= @character.hair_color %></p>
+		<p><b>Height:</b> <%= @character.height %></p>
+		<p><b>Mass:</b> <%= @character.mass %></p>
+		<p><b>Skin color:</b> <%= @character.skin_color %></p>
+		<p><b>Species:</b> <%= @character.species.name %></p>
 
-		<p><b>Name:</b> <%= @character["name"] %></p>
-		<p><b>Birth year:</b> <%= @character["birth_year"] %></p>
-		<p><b>Eye color:</b> <%= @character["eye_color"] %></p>
-		<p><b>Gender:</b> <%= @character["gender"] %></p>
-		<p><b>Hair color:</b> <%= @character["hair_color"] %></p>
-		<p><b>Height:</b> <%= @character["height"] %></p>
-		<p><b>Mass:</b> <%= @character["mass"] %></p>
-		<p><b>Skin color:</b> <%= @character["skin_color"] %></p>
 
-
-		<p><b>Homeworld:</b> <% @planets_names %>
-					-<a href="/planets/<%= @planets_names[1]%>"><%= @planets_names[0] %></a>
+		<p><b>Homeworld:</b> <% @planets.name %>
+					-<a href="/planets/<%= @planets.id%>"><%= @planets.name %></a>
 		</p>
 
-		<p><b>Films:</b> <% @films_titles.each do |film| %>
-					-<a href="/films/<%= film[1]%>"><%= film[0] %></a>
+		<p><b>Films:</b> <% @films.each do |film| %>
+					-<a href="/films/<%= film.id%>"><%= film.title %></a>
 						<% end %>
 		</p>
 
-		<p><b>Starships:</b> <% @starships_names.each do |starship| %>
-					-<a href="/starships/<%= starship[1]%>"><%= starship[0] %></a>
+		<p><b>Starships:</b> <% @starships.each do |starship| %>
+					-<a href="/starships/<%= starship.id%>"><%= starship.name %></a>
 						<% end %>
 		</p>
-
-
-		<p><b>URL Source:</b> <%= @character["url"] %></p>
-		<p><b>Created:</b> <%= @character["created"] %></p>
-		<p><b>Edited:</b> <%= @character["edited"] %></p>
-
 
 
   </div>

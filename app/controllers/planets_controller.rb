@@ -3,17 +3,47 @@ class PlanetsController < ApplicationController
 
   def show
 	url = request.original_url
-	@id = get_id(url).to_i
+	@id = get_id(url)
 
+	query = <<-GRAPHQL
+	query($id: ID) {
+		planet(id: $id){
+		name
+		  diameter
+		  rotationPeriod
+		  orbitalPeriod
+		  gravity
+		  population
+		  climates
+		  terrains
+		  surfaceWater
+		  residentConnection { edges {node {...characterFragment}}}
+		  filmConnection { edges {node {...filmFragment}}}
+		} } 
+	  fragment characterFragment on Person {
+		name
+		id
+	  }
+	  fragment filmFragment on Film {
+		title
+		  id 
+	  }
+	GRAPHQL
+	variables = { "id": @id }
+	response = @@client.query(query, variables)
 
-	res = HTTParty.get('https://swapi.co/api/planets/'+@id.to_s, :headers => {'Content-Type' => 'application/json'}).body
-	@planet = JSON.parse(res)
+	@planet = response.data.planet
 
-	films_urls = @planet["films"]
-	@films_titles = request_urls(films_urls, "title")
+	@characters = []
+	for character in @planet.resident_connection.edges
+		@characters << character.node
+	end
 
-	char_urls = @planet["residents"]
-	@characters_names = request_urls(char_urls, "name")
+	@films = []
+	for film in @planet.film_connection.edges
+		@films << film.node
+	end
+
   end
 
 end

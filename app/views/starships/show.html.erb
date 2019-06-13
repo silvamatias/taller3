@@ -3,34 +3,35 @@
 <div class="jumbotron">
   <div class="container">
 
+		<div class="caption">
+		<h3><b>STARSHIP</b><h3>
+		</div>
+		<p><b>Name:</b> <%= @starship.name %></p>
+		<p><b>Model:</b> <%= @starship.model %></p>
+		<p><b>Starship class:</b> <%= @starship.starship_class %></p>
+		<p><b>Manufacturers:</b> <% @starship.manufacturers.each do |manufacturer| %>
+                          <%= manufacturer %>.
+                          <% end %></p>
+		<p><b>Cost in credits:</b> <%= @starship.cost_in_credits %></p>
+		<p><b>Length:</b> <%= @starship.length %></p>
+		<p><b>Crew:</b> <%= @starship.crew %></p>
+		<p><b>Passengers:</b> <%= @starship.passengers %></p>
+		<p><b>Max speed:</b> <%= @starship.max_atmosphering_speed %></p>
+		<p><b>Hyperdrive rating:</b> <%= @starship.hyperdrive_rating %></p>
+		<p><b>Cargo capacity:</b> <%= @starship.cargo_capacity %></p>
+		<p><b>Consumables: <%= @starship.consumables %></p>
 
-		<p><b>Name:</b> <%= @starship["name"] %></p>
-		<p><b>Model:</b> <%= @starship["model"] %></p>
-		<p><b>Starship class:</b> <%= @starship["starship_class"] %></p>
-		<p><b>Manufacturer:</b> <%= @starship["manufacturer"] %></p>
-		<p><b>Cost in credits:</b> <%= @starship["cost_in_credits"] %></p>
-		<p><b>Length:</b> <%= @starship["length"] %></p>
-		<p><b>Crew:</b> <%= @starship["crew"] %></p>
-		<p><b>Passengers:</b> <%= @starship["passengers"] %></p>
-		<p><b>Max speed:</b> <%= @starship["max_atmosphering_speed"] %></p>
-		<p><b>Hyperdrive rating:</b> <%= @starship["hyperdrive_rating"] %></p>
-		<p><b>MGLT:</b> <%= @starship["MGLT"] %></p>
-		<p><b>Cargo capacity:</b> <%= @starship["cargo_capacity"] %></p>
-		<p><b>Consumables: <%= @starship["consumables"] %></p>
-
-		<p><b>Films:</b> <% @films_titles.each do |film| %>
-					-<a href="/films/<%= film[1]%>"><%= film[0] %></a>
+		<p><b>Films:</b> <% @films.each do |film| %>
+					-<a href="/films/<%= film.id%>"><%= film.title %></a>
 						<% end %>
 		</p>
 
-		<p><b>Residents:</b> <% @characters_names.each do |char| %>
-					-<a href="/characters/<%= char[1]%>"><%= char[0] %></a>
+		<p><b>Pilots:</b> <% @characters.each do |char| %>
+					-<a href="/characters/<%= char.id%>"><%= char.name %></a>
 						<% end %>
 		</p>
 
-		<p><b>URL Source:</b> <%= @starship["url"] %></p>
-		<p><b>Created:</b> <%= @starship["created"] %></p>
-		<p><b>Edited:</b> <%= @starship["edited"] %></p>
+
 
 
   </div>

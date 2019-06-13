@@ -6494,3 +6494,2084 @@ Processing by StarshipsController#show as HTML
 Completed 200 OK in 4787ms (Views: 72.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-06-11 14:43:29 -0400
+  
+SyntaxError (/Users/silvamatias/Desktop/taller3/app/controllers/films_controller.rb:15: dynamic constant assignment
+	HeroNameQuery = SWAPI::Client.parse <<-'GRAP...
+	              ^):
+  
+app/controllers/films_controller.rb:15: dynamic constant assignment
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.5ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (166.4ms)
+Started GET "/" for ::1 at 2019-06-11 14:44:00 -0400
+  
+LoadError (cannot load such file -- graphql/client):
+  
+app/controllers/concerns/swapi.rb:1:in `<top (required)>'
+app/controllers/films_controller.rb:9:in `<class:FilmsController>'
+app/controllers/films_controller.rb:7:in `<top (required)>'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (138.6ms)
+Started GET "/" for ::1 at 2019-06-12 11:04:15 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 23376ms (Views: 7780.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 12:37:46 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 3577ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `allStarships' for #< allStarships=...>
+Did you mean?  all_starships
+               all_starships?):
+  
+app/controllers/films_controller.rb:26:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (158.4ms)
+Started GET "/" for ::1 at 2019-06-12 12:39:40 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 12700ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::Client::UnimplementedFieldError (undefined field `edges' on Root type. https://git.io/v1y3m):
+  
+app/controllers/films_controller.rb:26:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (134.0ms)
+Started GET "/" for ::1 at 2019-06-12 16:10:57 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 3706ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `json' for #<GraphQL::Client::Response:0x00007f80b6b0f6d8>):
+  
+app/controllers/films_controller.rb:26:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (153.2ms)
+Started GET "/" for ::1 at 2019-06-12 16:12:39 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4486ms (Views: 1113.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 16:17:48 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3923ms (Views: 118.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 16:20:32 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 3786ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::Client::UnimplementedFieldError (undefined field `each' on Root type. https://git.io/v1y3m):
+  
+app/controllers/films_controller.rb:26:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (131.8ms)
+Started GET "/" for ::1 at 2019-06-12 16:20:56 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 3181ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for #<GraphQL::Client::Response:0x00007f80b8b8b088>):
+  
+app/controllers/films_controller.rb:26:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.4ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (144.4ms)
+Started GET "/" for ::1 at 2019-06-12 16:22:33 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 3126ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::Client::UnimplementedFieldError (undefined field `edges' on Root type. https://git.io/v1y3m):
+  
+app/controllers/films_controller.rb:26:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (135.2ms)
+Started GET "/" for ::1 at 2019-06-12 16:23:02 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 3391ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `allStarships' for #< allStarships=...>
+Did you mean?  all_starships
+               all_starships?):
+  
+app/controllers/films_controller.rb:26:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (136.9ms)
+Started GET "/" for ::1 at 2019-06-12 16:23:30 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 3468ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::Client::UnimplementedFieldError (undefined field `node' on StarshipsConnection type. https://git.io/v1y3m):
+  
+app/controllers/films_controller.rb:26:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (140.9ms)
+Started GET "/" for ::1 at 2019-06-12 16:23:51 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3734ms (Views: 103.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 16:24:19 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 3924ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `id' for #<GraphQL::Client::List:0x00007f80b47cc770>):
+  
+app/controllers/films_controller.rb:26:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.4ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (181.6ms)
+Started GET "/" for ::1 at 2019-06-12 16:54:34 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 2715ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `id' for #<GraphQL::Client::List:0x00007f80bb372e98>):
+  
+app/controllers/films_controller.rb:26:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (178.3ms)
+Started GET "/" for ::1 at 2019-06-12 16:55:12 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 2035ms (Views: 193.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/1" for ::1 at 2019-06-12 16:55:19 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 16900ms (Views: 123.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 16:58:28 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 3391ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `allFilms' for #< allFilms=...>
+Did you mean?  all_films
+               all_films?):
+  
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.2ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (137.2ms)
+Started GET "/" for ::1 at 2019-06-12 16:58:46 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 3849ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::Client::UnimplementedFieldError (undefined field `each' on FilmsConnection type. https://git.io/v1y3m):
+  
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (129.7ms)
+Started GET "/" for ::1 at 2019-06-12 17:00:02 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3508ms (Views: 120.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 17:01:06 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3605ms (Views: 113.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 17:01:35 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3944ms (Views: 115.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 17:03:23 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 4059ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::Client::UnimplementedFieldError (undefined field `title' on FilmsEdge type. https://git.io/v1y3m):
+  
+app/controllers/films_controller.rb:36:in `block in index'
+app/controllers/films_controller.rb:35:in `each'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (135.3ms)
+Started GET "/" for ::1 at 2019-06-12 17:04:10 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 3830ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::Client::UnimplementedFieldError (undefined field `title' on FilmsEdge type. https://git.io/v1y3m):
+  
+app/controllers/films_controller.rb:37:in `block in index'
+app/controllers/films_controller.rb:35:in `each'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (205.4ms)
+Started GET "/" for ::1 at 2019-06-12 17:04:19 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3730ms (Views: 97.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 17:05:09 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3453ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 17:07:28 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 4194ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `node' for #<GraphQL::Client::List:0x00007f80bd31f6b0>):
+  
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (144.4ms)
+Started GET "/" for ::1 at 2019-06-12 17:07:53 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 3156ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `node' for #<GraphQL::Client::List:0x00007f80bb1cfd48>):
+  
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (151.1ms)
+Started GET "/" for ::1 at 2019-06-12 17:08:04 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 3419ms (Views: 109.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 17:08:52 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 3743ms (Views: 123.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 17:18:04 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (580.5ms)
+Completed 500 Internal Server Error in 4792ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x00007f80bcb6b680>:0x00007f80bcb6a0f0>):
+     8:     <div class="row">
+     9: 
+    10: 	<% @films.each do |film| %>
+    11: 				<! <% film_id = (f["url"].split("/")[-1]).to_i%> >
+    12:         <% film_id = (film.id).to_i%>
+    13:   <div class="col-sm-6 col-md-4">
+    14:     <div class="thumbnail">
+  
+app/views/films/index.html.erb:11:in `block in _app_views_films_index_html_erb__1647404039114526300_70095449342040'
+app/views/films/index.html.erb:10:in `each'
+app/views/films/index.html.erb:10:in `_app_views_films_index_html_erb__1647404039114526300_70095449342040'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (134.4ms)
+Started GET "/" for ::1 at 2019-06-12 17:18:26 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (8.9ms)
+Completed 500 Internal Server Error in 2963ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `releaseDate' for #<#<Class:0x00007f80bb76a028>:0x00007f80babad7f8>
+Did you mean?  release_date
+               release_date?):
+    14: 
+    15:       <div class="caption">
+    16:         <h3><%= film.title %></h3>
+    17: 		<p><b>Release Date:</b> <%= film.releaseDate %></p>
+    18: 		<p><b>Episode ID:</b> <%= film.episodeID %> </p>
+    19: 		<p><b>Director:</b> <%= film.director %> </p>
+    20: 		<p><b>Producer:</b> <%= film.producers %> </p>
+  
+app/views/films/index.html.erb:17:in `block in _app_views_films_index_html_erb__1647404039114526300_70095380233420'
+app/views/films/index.html.erb:10:in `each'
+app/views/films/index.html.erb:10:in `_app_views_films_index_html_erb__1647404039114526300_70095380233420'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.2ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (134.8ms)
+Started GET "/" for ::1 at 2019-06-12 17:19:11 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 2435ms (Views: 127.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 17:23:26 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (6.4ms)
+Completed 500 Internal Server Error in 2284ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `producers' for nil:NilClass):
+    17: 		<p><b>Release Date:</b> <%= film.release_date %></p>
+    18: 		<p><b>Episode ID:</b> <%= film.episode_id %> </p>
+    19: 		<p><b>Director:</b> <%= film.director %> </p>
+    20: 		<p><b>Producer:</b> <% @film.producers.each do |producer| %>
+    21:                           <%= producers %> 
+    22:                           <% end %></p>
+    23:         <p><a href="/films/<%=film_id%>" class="btn btn-primary" role="button">More Info</a></p>
+  
+app/views/films/index.html.erb:20:in `block in _app_views_films_index_html_erb__1647404039114526300_70095431548700'
+app/views/films/index.html.erb:10:in `each'
+app/views/films/index.html.erb:10:in `_app_views_films_index_html_erb__1647404039114526300_70095431548700'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.1ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (137.3ms)
+Started GET "/" for ::1 at 2019-06-12 17:24:15 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 2690ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `producers' for nil:NilClass):
+    17: 		<p><b>Release Date:</b> <%= film.release_date %></p>
+    18: 		<p><b>Episode ID:</b> <%= film.episode_id %> </p>
+    19: 		<p><b>Director:</b> <%= film.director %> </p>
+    20: 		<p><b>Producer:</b> <% @film.producers.each do |producer| %>
+    21:                           <%= producer %> 
+    22:                           <% end %></p>
+    23:         <p><a href="/films/<%=film_id%>" class="btn btn-primary" role="button">More Info</a></p>
+  
+app/views/films/index.html.erb:20:in `block in _app_views_films_index_html_erb__1647404039114526300_70095476887860'
+app/views/films/index.html.erb:10:in `each'
+app/views/films/index.html.erb:10:in `_app_views_films_index_html_erb__1647404039114526300_70095476887860'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (137.8ms)
+Started GET "/" for ::1 at 2019-06-12 17:26:19 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 2559ms (Views: 112.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 17:26:48 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 2526ms (Views: 88.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 17:27:26 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 2386ms (Views: 94.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/0" for ::1 at 2019-06-12 17:27:41 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"0"}
+Completed 500 Internal Server Error in 912ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/concerns/metodos.rb:23:in `request_urls'
+app/controllers/films_controller.rb:50:in `show'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (131.9ms)
+Started GET "/" for ::1 at 2019-06-12 17:27:46 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 2241ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 17:30:09 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1846ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 17:30:44 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 677ms (Views: 104.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6MQ==" for ::1 at 2019-06-12 17:31:17 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6MQ=="}
+Completed 500 Internal Server Error in 1491ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/concerns/metodos.rb:23:in `request_urls'
+app/controllers/films_controller.rb:49:in `show'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (129.7ms)
+Started GET "/" for ::1 at 2019-06-12 17:31:22 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 718ms (Views: 91.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 17:54:26 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1914ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::ParseError (Parse error on "=" (EQUALS) at [2, 23]):
+  
+app/controllers/films_controller.rb:45:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (142.0ms)
+Started GET "/" for ::1 at 2019-06-12 17:56:09 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1595ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::ParseError (Parse error on "=" (EQUALS) at [2, 23]):
+  
+app/controllers/films_controller.rb:45:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (140.4ms)
+Started GET "/" for ::1 at 2019-06-12 17:56:43 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1667ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::ParseError (Parse error on "=" (EQUALS) at [2, 23]):
+  
+app/controllers/films_controller.rb:45:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (136.1ms)
+Started GET "/" for ::1 at 2019-06-12 17:57:18 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1623ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::ParseError (Parse error on "=" (EQUALS) at [2, 23]):
+  
+app/controllers/films_controller.rb:45:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (20.4ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (155.5ms)
+Started GET "/" for ::1 at 2019-06-12 17:58:26 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 2364ms (Views: 131.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 18:00:47 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 2294ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `data' for #<ActionDispatch::Response:0x00007f80b3cef668>
+Did you mean?  date):
+  
+app/controllers/films_controller.rb:63:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (207.3ms)
+Started GET "/" for ::1 at 2019-06-12 18:01:06 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 2168ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::Client::UnfetchedFieldError (unfetched field `film' on Root type. https://git.io/v1y3U):
+  
+app/controllers/films_controller.rb:63:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (134.2ms)
+Started GET "/" for ::1 at 2019-06-12 18:02:19 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 2608ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::Client::UnimplementedFieldError (undefined field `title' on Root type. https://git.io/v1y3m):
+  
+app/controllers/films_controller.rb:63:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (134.4ms)
+Started GET "/" for ::1 at 2019-06-12 18:03:44 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 2420ms (Views: 113.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 18:04:57 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1680ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::ParseError (Parse error on "=" (EQUALS) at [2, 23]):
+  
+app/controllers/films_controller.rb:45:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.2ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (143.0ms)
+Started GET "/" for ::1 at 2019-06-12 18:05:25 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1568ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::ParseError (Parse error on "=" (EQUALS) at [2, 23]):
+  
+app/controllers/films_controller.rb:45:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (141.4ms)
+Started GET "/" for ::1 at 2019-06-12 18:06:00 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 2356ms (Views: 104.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 18:11:35 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1698ms (ActiveRecord: 0.0ms)
+
+
+  
+Graphlient::Errors::ClientError (Type mismatch on variable $ids and argument id (String / ID)):
+  
+app/controllers/films_controller.rb:76:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (140.2ms)
+Started GET "/" for ::1 at 2019-06-12 18:12:36 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 2091ms (ActiveRecord: 0.0ms)
+
+
+  
+Graphlient::Errors::ClientError (Type mismatch on variable $ids and argument id (String / ID)):
+  
+app/controllers/films_controller.rb:76:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (137.8ms)
+Started GET "/" for ::1 at 2019-06-12 18:14:18 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1709ms (ActiveRecord: 0.0ms)
+
+
+  
+Graphlient::Errors::ClientError (Type mismatch on variable $id and argument id (String / ID)):
+  
+app/controllers/films_controller.rb:76:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (173.5ms)
+Started GET "/" for ::1 at 2019-06-12 18:17:00 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1681ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::ParseError (Parse error on "@" (DIR_SIGN) at [2, 13]):
+  
+app/controllers/films_controller.rb:45:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (143.0ms)
+Started GET "/" for ::1 at 2019-06-12 18:17:40 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1632ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::ParseError (Parse error on "=" (EQUALS) at [2, 23]):
+  
+app/controllers/films_controller.rb:45:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.5ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (135.9ms)
+Started GET "/" for ::1 at 2019-06-12 18:18:56 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1661ms (ActiveRecord: 0.0ms)
+
+
+  
+Graphlient::Errors::ClientError (Type mismatch on variable $id and argument id ([String] / ID)):
+  
+app/controllers/films_controller.rb:76:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (142.9ms)
+Started GET "/" for ::1 at 2019-06-12 18:21:31 -0400
+  
+SyntaxError (/Users/silvamatias/Desktop/taller3/app/controllers/films_controller.rb:74: syntax error, unexpected '}', expecting =>
+	variables = { @id }
+	                  ^):
+  
+app/controllers/films_controller.rb:74: syntax error, unexpected '}', expecting =>
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.9ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (153.5ms)
+Started GET "/" for ::1 at 2019-06-12 18:25:43 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1695ms (ActiveRecord: 0.0ms)
+
+
+  
+Graphlient::Errors::ClientError (Type mismatch on variable $String and argument id (String / ID)):
+  
+app/controllers/films_controller.rb:76:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (139.8ms)
+Started GET "/" for ::1 at 2019-06-12 18:26:24 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1546ms (ActiveRecord: 0.0ms)
+
+
+  
+Graphlient::Errors::ClientError (Type mismatch on variable $String and argument id (String / ID)):
+  
+app/controllers/films_controller.rb:76:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (153.2ms)
+Started GET "/" for ::1 at 2019-06-12 18:29:42 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1740ms (ActiveRecord: 0.0ms)
+
+
+  
+Graphlient::Errors::ClientError (Type mismatch on variable $id and argument id (String / ID)):
+  
+app/controllers/films_controller.rb:76:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.5ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (138.8ms)
+Started GET "/" for ::1 at 2019-06-12 18:30:30 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1547ms (ActiveRecord: 0.0ms)
+
+
+  
+Graphlient::Errors::ClientError (Type mismatch on variable $string and argument id (String / ID)):
+  
+app/controllers/films_controller.rb:76:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (143.8ms)
+Started GET "/" for ::1 at 2019-06-12 18:37:49 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1633ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::ParseError (Parse error on "=" (EQUALS) at [2, 23]):
+  
+app/controllers/films_controller.rb:45:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (144.2ms)
+Started GET "/" for ::1 at 2019-06-12 18:38:41 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1622ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::ParseError (Parse error on "@" (DIR_SIGN) at [2, 14]):
+  
+app/controllers/films_controller.rb:45:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (144.3ms)
+Started GET "/" for ::1 at 2019-06-12 18:39:02 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1655ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::ParseError (Parse error on "@" (DIR_SIGN) at [2, 13]):
+  
+app/controllers/films_controller.rb:45:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (137.2ms)
+Started GET "/" for ::1 at 2019-06-12 18:46:39 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1711ms (ActiveRecord: 0.0ms)
+
+
+  
+Graphlient::Errors::ClientError (Type mismatch on variable $id and argument id (String / ID)):
+  
+app/controllers/films_controller.rb:75:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.7ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (146.2ms)
+Started GET "/" for ::1 at 2019-06-12 18:49:46 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1774ms (ActiveRecord: 0.0ms)
+
+
+  
+Graphlient::Errors::ClientError (id isn't a defined input type (on $id)):
+  
+app/controllers/films_controller.rb:75:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (162.7ms)
+Started GET "/" for ::1 at 2019-06-12 18:50:27 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1628ms (ActiveRecord: 0.0ms)
+
+
+  
+Graphlient::Errors::ClientError (string isn't a defined input type (on $id)):
+  
+app/controllers/films_controller.rb:75:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (148.7ms)
+Started GET "/" for ::1 at 2019-06-12 18:50:49 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1743ms (ActiveRecord: 0.0ms)
+
+
+  
+Graphlient::Errors::ClientError (Type mismatch on variable $id and argument id (String / ID)):
+  
+app/controllers/films_controller.rb:75:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.9ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (152.2ms)
+Started GET "/" for ::1 at 2019-06-12 18:54:36 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1767ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::ParseError (Parse error on ":" (COLON) at [1, 14]):
+  
+app/controllers/films_controller.rb:75:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (141.3ms)
+Started GET "/" for ::1 at 2019-06-12 18:54:49 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1640ms (ActiveRecord: 0.0ms)
+
+
+  
+Graphlient::Errors::ClientError (string isn't a defined input type (on $id)):
+  
+app/controllers/films_controller.rb:75:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (132.4ms)
+Started GET "/" for ::1 at 2019-06-12 18:55:06 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1487ms (ActiveRecord: 0.0ms)
+
+
+  
+Graphlient::Errors::ClientError (string isn't a defined input type (on $id)):
+  
+app/controllers/films_controller.rb:75:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (135.5ms)
+Started GET "/" for ::1 at 2019-06-12 18:59:01 -0400
+Processing by FilmsController#index as HTML
+Completed 500 Internal Server Error in 1672ms (ActiveRecord: 0.0ms)
+
+
+  
+Graphlient::Errors::ClientError (Type mismatch on variable $id and argument id (String / ID)):
+  
+app/controllers/films_controller.rb:75:in `testing'
+app/controllers/films_controller.rb:35:in `index'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (140.8ms)
+Started GET "/" for ::1 at 2019-06-12 19:00:02 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 2287ms (Views: 107.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 19:00:22 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 2339ms (Views: 91.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-12 19:04:43 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 12711ms (Views: 112.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6MQ==" for ::1 at 2019-06-12 19:04:59 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6MQ=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 718ms (Views: 89.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6MQ==" for ::1 at 2019-06-12 19:07:05 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6MQ=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (457.5ms)
+Completed 500 Internal Server Error in 16048ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `film' for #<#<Class:0x00007f80a39c6500>:0x00007f80c1b7ba58>
+Did you mean?  @film):
+    10: 		<p><b>Opening crawl:</b> <%= @film.opening_crawl %></p>
+    11: 		<p><b>Director:</b> <%= @film.director %></p>
+    12: 		<p><b>Producers:</b> <%= @film.producers %></p>
+    13: 		<p><b>Producers:</b> <% film.producers.each do |producer| %>
+    14:                           <%= producer %>.
+    15:                           <% end %></p>
+    16: 		<p><b>Release date:</b> <%= @film.release_date %></p>
+  
+app/views/films/show.html.erb:13:in `_app_views_films_show_html_erb___154599657485415575_70095491302380'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (139.7ms)
+Started GET "/films/ZmlsbXM6MQ==" for ::1 at 2019-06-12 19:07:44 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6MQ=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 707ms (Views: 116.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6MQ==" for ::1 at 2019-06-12 19:12:21 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6MQ=="}
+Completed 500 Internal Server Error in 6200ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `film' for #<FilmsController:0x00007f80c1b7bf08>
+Did you mean?  @film):
+  
+app/controllers/films_controller.rb:79:in `show'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (234.3ms)
+Started GET "/films/ZmlsbXM6MQ==" for ::1 at 2019-06-12 19:12:57 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6MQ=="}
+Completed 500 Internal Server Error in 1647ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `starshipConnection' for #<#<Class:0x00007f80a7205bf0>:0x00007f80a71ec5b0>
+Did you mean?  starship_connection
+               starship_connection?):
+  
+app/controllers/films_controller.rb:79:in `show'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (144.0ms)
+Started GET "/films/ZmlsbXM6MQ==" for ::1 at 2019-06-12 19:13:35 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6MQ=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1749ms (Views: 111.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6MQ==" for ::1 at 2019-06-12 19:22:57 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6MQ=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 36750ms (Views: 100.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6MQ==" for ::1 at 2019-06-12 20:00:23 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6MQ=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (11.3ms)
+Completed 500 Internal Server Error in 1841ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    21: 		</p>
+    22: 
+    23: 
+    24: 		<p><b>Characters:</b> <% @characters_names.each do |char| %>
+    25: 					-<a href="/characters/<%= char.id%>"><%= char.name %></a>
+    26: 						<% end %>
+    27: 		</p>
+  
+app/views/films/show.html.erb:24:in `_app_views_films_show_html_erb___154599657485415575_70095232138000'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.5ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (139.7ms)
+Started GET "/films/ZmlsbXM6MQ==" for ::1 at 2019-06-12 20:00:43 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6MQ=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 843ms (Views: 234.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6MQ==" for ::1 at 2019-06-12 20:41:04 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6MQ=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 2356ms (Views: 164.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/cGVvcGxlOjE=" for ::1 at 2019-06-12 20:41:14 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjE="}
+Completed 500 Internal Server Error in 586ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::Client::UnimplementedFieldError (undefined field `edges' on Planet type. https://git.io/v1y3m):
+  
+app/controllers/characters_controller.rb:51:in `show'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (134.7ms)
+Started GET "/characters/cGVvcGxlOjE=" for ::1 at 2019-06-12 20:41:50 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjE="}
+Completed 500 Internal Server Error in 1669ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::Client::UnimplementedFieldError (undefined field `each' on Planet type. https://git.io/v1y3m):
+  
+app/controllers/characters_controller.rb:51:in `show'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (140.8ms)
+Started GET "/characters/cGVvcGxlOjE=" for ::1 at 2019-06-12 20:44:11 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjE="}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (9.4ms)
+Completed 500 Internal Server Error in 1799ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for [#< name="Tatooine" id="cGxhbmV0czox">]:Array):
+    16: 		<p><b>Species:</b> <%= @character.species.name %></p>
+    17: 
+    18: 
+    19: 		<p><b>Homeworld:</b> <% @planets.name %>
+    20: 					-<a href="/planets/<%= @planets.id%>"><%= @planets.name %></a>
+    21: 		</p>
+    22: 
+  
+app/views/characters/show.html.erb:19:in `_app_views_characters_show_html_erb__496903602153951199_70095478077460'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.9ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (146.6ms)
+Started GET "/characters/cGVvcGxlOjE=" for ::1 at 2019-06-12 20:44:38 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjE="}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 1743ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined field `name' on Film type. https://git.io/v1y3m):
+    21: 		</p>
+    22: 
+    23: 		<p><b>Films:</b> <% @films.each do |film| %>
+    24: 					-<a href="/films/<%= film.id%>"><%= film.name %></a>
+    25: 						<% end %>
+    26: 		</p>
+    27: 
+  
+app/views/characters/show.html.erb:24:in `block in _app_views_characters_show_html_erb__496903602153951199_70095271464440'
+app/views/characters/show.html.erb:23:in `each'
+app/views/characters/show.html.erb:23:in `_app_views_characters_show_html_erb__496903602153951199_70095271464440'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (141.0ms)
+Started GET "/characters/cGVvcGxlOjE=" for ::1 at 2019-06-12 20:45:08 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjE="}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 659ms (Views: 102.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6MQ==" for ::1 at 2019-06-12 20:45:16 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6MQ=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 710ms (Views: 91.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/cGVvcGxlOjQ=" for ::1 at 2019-06-12 20:45:20 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjQ="}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 678ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6Mg==" for ::1 at 2019-06-12 20:45:54 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6Mg=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 814ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/cGVvcGxlOjEz" for ::1 at 2019-06-12 20:45:57 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjEz"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 664ms (Views: 81.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starships/c3RhcnNoaXBzOjEw" for ::1 at 2019-06-12 20:46:50 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjEw"}
+Completed 500 Internal Server Error in 2277ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/concerns/metodos.rb:23:in `request_urls'
+app/controllers/starships_controller.rb:13:in `show'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (134.8ms)
+Started GET "/characters/cGVvcGxlOjEz" for ::1 at 2019-06-12 20:46:57 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjEz"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 845ms (Views: 106.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/cGVvcGxlOjEz" for ::1 at 2019-06-12 21:00:58 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjEz"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 2159ms (Views: 175.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starships/c3RhcnNoaXBzOjIy" for ::1 at 2019-06-12 21:01:03 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjIy"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::ParseError (Parse error on "{" (LCURLY) at [1, 18]):
+  
+app/controllers/starships_controller.rb:36:in `show'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (130.4ms)
+Started GET "/starships/c3RhcnNoaXBzOjIy" for ::1 at 2019-06-12 21:01:23 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjIy"}
+Completed 500 Internal Server Error in 1817ms (ActiveRecord: 0.0ms)
+
+
+  
+GraphQL::Client::UnimplementedFieldError (undefined field `pilots_connection' on Starship type. https://git.io/v1y3m):
+  
+app/controllers/starships_controller.rb:41:in `show'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.4ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (145.7ms)
+Started GET "/starships/c3RhcnNoaXBzOjIy" for ::1 at 2019-06-12 21:06:33 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjIy"}
+  Rendering starships/show.html.erb within layouts/application
+  Rendered starships/show.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 1782ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined field `manufacturer' on Starship type. https://git.io/v1y3m):
+     7: 		<p><b>Name:</b> <%= @starship.name %></p>
+     8: 		<p><b>Model:</b> <%= @starship.model %></p>
+     9: 		<p><b>Starship class:</b> <%= @starship.starship_class %></p>
+    10: 		<p><b>Manufacturer:</b> <%= @starship.manufacturer %></p>
+    11: 		<p><b>Cost in credits:</b> <%= @starship.cost_in_credits %></p>
+    12: 		<p><b>Length:</b> <%= @starship.length %></p>
+    13: 		<p><b>Crew:</b> <%= @starship.crew %></p>
+  
+app/views/starships/show.html.erb:10:in `_app_views_starships_show_html_erb___1116971901203020241_70095258744560'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (141.0ms)
+Started GET "/starships/c3RhcnNoaXBzOjIy" for ::1 at 2019-06-12 21:08:30 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjIy"}
+  Rendering starships/show.html.erb within layouts/application
+  Rendered starships/show.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 782ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `MGLT' for #<#<Class:0x00007f80a39be580>:0x00007f80a398cda0>
+Did you mean?  mglt?):
+    17: 		<p><b>Passengers:</b> <%= @starship.passengers %></p>
+    18: 		<p><b>Max speed:</b> <%= @starship.max_atmosphering_speed %></p>
+    19: 		<p><b>Hyperdrive rating:</b> <%= @starship.hyperdrive_rating %></p>
+    20: 		<p><b>MGLT:</b> <%= @starship.MGLT %></p>
+    21: 		<p><b>Cargo capacity:</b> <%= @starship.cargo_capacity %></p>
+    22: 		<p><b>Consumables: <%= @starship.consumables %></p>
+    23: 
+  
+app/views/starships/show.html.erb:20:in `_app_views_starships_show_html_erb___1116971901203020241_70095238608580'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.6ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (143.5ms)
+Started GET "/starships/c3RhcnNoaXBzOjIy" for ::1 at 2019-06-12 21:11:07 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjIy"}
+  Rendering starships/show.html.erb within layouts/application
+  Rendered starships/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 863ms (Views: 125.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starships/c3RhcnNoaXBzOjIy" for ::1 at 2019-06-12 21:11:35 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjIy"}
+  Rendering starships/show.html.erb within layouts/application
+  Rendered starships/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 699ms (Views: 111.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6Mg==" for ::1 at 2019-06-12 21:12:34 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6Mg=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 819ms (Views: 191.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starships/c3RhcnNoaXBzOjEw" for ::1 at 2019-06-12 21:12:40 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjEw"}
+  Rendering starships/show.html.erb within layouts/application
+  Rendered starships/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 782ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/cGVvcGxlOjMx" for ::1 at 2019-06-12 21:12:50 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjMx"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 713ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets/cGxhbmV0czozMw==" for ::1 at 2019-06-12 21:12:55 -0400
+Processing by PlanetsController#show as HTML
+  Parameters: {"id"=>"cGxhbmV0czozMw=="}
+  Rendering planets/show.html.erb within layouts/application
+  Rendered planets/show.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    4:   <div class="container">
+    5: 
+    6: 
+    7: 		<p><b>Name:</b> <%= @planet["name"] %></p>
+    8: 		<p><b>Diameter:</b> <%= @planet["diameter"] %></p>
+    9: 		<p><b>Rotation Period:</b> <%= @planet["rotation_period"] %></p>
+   10: 		<p><b>Orbital Period:</b> <%= @planet["orbital_period"] %></p>
+  
+app/views/planets/show.html.erb:7:in `_app_views_planets_show_html_erb__3620639384181809599_70095258657860'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.5ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (143.5ms)
+Started GET "/characters/cGVvcGxlOjMx" for ::1 at 2019-06-12 21:12:57 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjMx"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 817ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starships/c3RhcnNoaXBzOjEw" for ::1 at 2019-06-12 21:13:00 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjEw"}
+  Rendering starships/show.html.erb within layouts/application
+  Rendered starships/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 731ms (Views: 87.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6Nw==" for ::1 at 2019-06-12 21:13:04 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6Nw=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 715ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starships/c3RhcnNoaXBzOjc3" for ::1 at 2019-06-12 21:13:09 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjc3"}
+  Rendering starships/show.html.erb within layouts/application
+  Rendered starships/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 676ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/cGVvcGxlOjg2" for ::1 at 2019-06-12 21:13:15 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjg2"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 679ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets/cGxhbmV0czoyOA==" for ::1 at 2019-06-12 21:13:20 -0400
+Processing by PlanetsController#show as HTML
+  Parameters: {"id"=>"cGxhbmV0czoyOA=="}
+  Rendering planets/show.html.erb within layouts/application
+  Rendered planets/show.html.erb within layouts/application (8.7ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    4:   <div class="container">
+    5: 
+    6: 
+    7: 		<p><b>Name:</b> <%= @planet["name"] %></p>
+    8: 		<p><b>Diameter:</b> <%= @planet["diameter"] %></p>
+    9: 		<p><b>Rotation Period:</b> <%= @planet["rotation_period"] %></p>
+   10: 		<p><b>Orbital Period:</b> <%= @planet["orbital_period"] %></p>
+  
+app/views/planets/show.html.erb:7:in `_app_views_planets_show_html_erb__3620639384181809599_70095273916340'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (131.7ms)
+Started GET "/characters/cGVvcGxlOjg2" for ::1 at 2019-06-12 21:13:22 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjg2"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 704ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starships/c3RhcnNoaXBzOjc3" for ::1 at 2019-06-12 21:13:25 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjc3"}
+  Rendering starships/show.html.erb within layouts/application
+  Rendered starships/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 729ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/" for ::1 at 2019-06-12 21:13:29 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 938ms (Views: 75.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6NA==" for ::1 at 2019-06-12 21:13:39 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6NA=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 738ms (Views: 87.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starships/c3RhcnNoaXBzOjM5" for ::1 at 2019-06-12 21:13:46 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjM5"}
+  Rendering starships/show.html.erb within layouts/application
+  Rendered starships/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 704ms (Views: 92.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6NQ==" for ::1 at 2019-06-12 21:13:51 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6NQ=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 702ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/cGVvcGxlOjUy" for ::1 at 2019-06-12 21:13:56 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjUy"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 809ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6Ng==" for ::1 at 2019-06-12 21:14:04 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6Ng=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 725ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6Ng==" for ::1 at 2019-06-12 22:10:22 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6Ng=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 3171ms (Views: 172.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets/cGxhbmV0czox" for ::1 at 2019-06-12 22:10:30 -0400
+Processing by PlanetsController#show as HTML
+  Parameters: {"id"=>"cGxhbmV0czox"}
+Completed 500 Internal Server Error in 605ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `resident_connection' for nil:NilClass):
+  
+app/controllers/planets_controller.rb:38:in `show'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.7ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (137.8ms)
+Started GET "/planets/cGxhbmV0czox" for ::1 at 2019-06-12 22:12:08 -0400
+Processing by PlanetsController#show as HTML
+  Parameters: {"id"=>"cGxhbmV0czox"}
+  Rendering planets/show.html.erb within layouts/application
+  Rendered planets/show.html.erb within layouts/application (9.4ms)
+Completed 500 Internal Server Error in 2268ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined field `climate' on Planet type. https://git.io/v1y3m):
+    10: 		<p><b>Orbital Period:</b> <%= @planet.orbital_period %></p>
+    11: 		<p><b>Gravity:</b> <%= @planet.gravity %></p>
+    12: 		<p><b>Population:</b> <%= @planet.population %></p>
+    13: 		<p><b>Climate:</b> <%= @planet.climate %></p>
+    14: 		<p><b>Climates:</b> <% @planet.climates.each do |climate| %>
+    15:                           <%= climate %>.
+    16:                           <% end %></p>
+  
+app/views/planets/show.html.erb:13:in `_app_views_planets_show_html_erb__3620639384181809599_70095274094880'
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/silvamatias/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (136.3ms)
+Started GET "/planets/cGxhbmV0czox" for ::1 at 2019-06-12 22:12:36 -0400
+Processing by PlanetsController#show as HTML
+  Parameters: {"id"=>"cGxhbmV0czox"}
+  Rendering planets/show.html.erb within layouts/application
+  Rendered planets/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 693ms (Views: 114.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets/cGxhbmV0czox" for ::1 at 2019-06-12 22:12:51 -0400
+Processing by PlanetsController#show as HTML
+  Parameters: {"id"=>"cGxhbmV0czox"}
+  Rendering planets/show.html.erb within layouts/application
+  Rendered planets/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 676ms (Views: 100.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets/cGxhbmV0czox" for ::1 at 2019-06-12 22:13:32 -0400
+Processing by PlanetsController#show as HTML
+  Parameters: {"id"=>"cGxhbmV0czox"}
+  Rendering planets/show.html.erb within layouts/application
+  Rendered planets/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 821ms (Views: 102.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets/cGxhbmV0czox" for ::1 at 2019-06-12 22:14:28 -0400
+Processing by PlanetsController#show as HTML
+  Parameters: {"id"=>"cGxhbmV0czox"}
+  Rendering planets/show.html.erb within layouts/application
+  Rendered planets/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 686ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets/cGxhbmV0czox" for ::1 at 2019-06-12 22:15:29 -0400
+Processing by PlanetsController#show as HTML
+  Parameters: {"id"=>"cGxhbmV0czox"}
+  Rendering planets/show.html.erb within layouts/application
+  Rendered planets/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 836ms (Views: 109.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/" for ::1 at 2019-06-12 22:16:24 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 723ms (Views: 115.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6MQ==" for ::1 at 2019-06-12 22:16:27 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6MQ=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 709ms (Views: 101.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/cGVvcGxlOjE=" for ::1 at 2019-06-12 22:16:32 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjE="}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 678ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets/cGxhbmV0czox" for ::1 at 2019-06-12 22:16:38 -0400
+Processing by PlanetsController#show as HTML
+  Parameters: {"id"=>"cGxhbmV0czox"}
+  Rendering planets/show.html.erb within layouts/application
+  Rendered planets/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 742ms (Views: 97.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/cGVvcGxlOjEx" for ::1 at 2019-06-12 22:16:43 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjEx"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 653ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starships/c3RhcnNoaXBzOjY1" for ::1 at 2019-06-12 22:16:47 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjY1"}
+  Rendering starships/show.html.erb within layouts/application
+  Rendered starships/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 833ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starships/c3RhcnNoaXBzOjY1" for ::1 at 2019-06-12 22:17:05 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjY1"}
+  Rendering starships/show.html.erb within layouts/application
+  Rendered starships/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 648ms (Views: 94.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starships/c3RhcnNoaXBzOjY1" for ::1 at 2019-06-12 22:18:55 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjY1"}
+  Rendering starships/show.html.erb within layouts/application
+  Rendered starships/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 823ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/" for ::1 at 2019-06-12 22:18:58 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 716ms (Views: 100.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6NQ==" for ::1 at 2019-06-12 22:19:04 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6NQ=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 671ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/cGVvcGxlOjQz" for ::1 at 2019-06-12 22:19:06 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjQz"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 650ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6NQ==" for ::1 at 2019-06-12 22:19:09 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6NQ=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 695ms (Views: 81.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/cGVvcGxlOjU4" for ::1 at 2019-06-12 22:19:12 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjU4"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 682ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets/cGxhbmV0czo0OQ==" for ::1 at 2019-06-12 22:19:14 -0400
+Processing by PlanetsController#show as HTML
+  Parameters: {"id"=>"cGxhbmV0czo0OQ=="}
+  Rendering planets/show.html.erb within layouts/application
+  Rendered planets/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 681ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/cGVvcGxlOjU4" for ::1 at 2019-06-12 22:19:30 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjU4"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 669ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets/cGxhbmV0czo0OQ==" for ::1 at 2019-06-12 22:19:35 -0400
+Processing by PlanetsController#show as HTML
+  Parameters: {"id"=>"cGxhbmV0czo0OQ=="}
+  Rendering planets/show.html.erb within layouts/application
+  Rendered planets/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 660ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/cGVvcGxlOjU4" for ::1 at 2019-06-12 22:19:38 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjU4"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 688ms (Views: 96.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starships/c3RhcnNoaXBzOjQ4" for ::1 at 2019-06-12 22:19:39 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjQ4"}
+  Rendering starships/show.html.erb within layouts/application
+  Rendered starships/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 664ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/cGVvcGxlOjEw" for ::1 at 2019-06-12 22:19:42 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjEw"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 663ms (Views: 83.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets/cGxhbmV0czoyMA==" for ::1 at 2019-06-12 22:19:46 -0400
+Processing by PlanetsController#show as HTML
+  Parameters: {"id"=>"cGxhbmV0czoyMA=="}
+  Rendering planets/show.html.erb within layouts/application
+  Rendered planets/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 656ms (Views: 76.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/cGVvcGxlOjEw" for ::1 at 2019-06-12 22:19:50 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjEw"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 633ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starships/c3RhcnNoaXBzOjU5" for ::1 at 2019-06-12 22:19:51 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjU5"}
+  Rendering starships/show.html.erb within layouts/application
+  Rendered starships/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 666ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/" for ::1 at 2019-06-12 22:19:55 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 651ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+

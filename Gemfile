@@ -5,7 +5,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
+# GraphLient
+gem 'graphlient', '~> 0.3.5'
+# GraphQL
+gem 'graphql', '~> 1.9', '>= 1.9.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.7', '>= 5.0.7.2'
 # Use postgresql as the database for Active Record
@@ -57,3 +60,5 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'httparty', '~> 0.13.7'
 
 gem 'simple_form', '~> 3.5'
+
+gem 'graphiql-rails', group: :development
