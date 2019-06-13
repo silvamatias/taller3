@@ -48,21 +48,7 @@ class CharactersController < ApplicationController
 	end
 
 	@planets = @character.homeworld
-	#for planet in @character.homeworld
-	#	@planets << planet
-	#end
 
-	#res = HTTParty.get('https://swapi.co/api/people/'+@id.to_s, :headers => {'Content-Type' => 'application/json'}).body
-	#@character = JSON.parse(res)
-
-	#planets_urls = @character["homeworld"]
-	#@planets_names = request_urls_single(planets_urls, "name")
-
-	#starships_urls = @character["starships"]
-	#@starships_names = request_urls(starships_urls, "name")
-
-	#films_urls = @character["films"]
-	#@films_titles = request_urls(films_urls, "title")
   end
 
 end

@@ -87,17 +87,6 @@ class FilmsController < ApplicationController
 	for planet in @film.planet_connection.edges
 		@planets << planet.node
 	end
-	
-	#planets_urls = @film["planets"]
-	#@planets_names = request_urls(planets_urls, "name")
-
-
-	#char_urls = @film["characters"]
-	#@characters_names = request_urls(char_urls, "name")
-
-	#starships_urls = @film["starships"]
-	#@starships_names = request_urls(starships_urls, "name")
-
 
   end
 

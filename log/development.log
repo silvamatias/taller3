@@ -8575,3 +8575,81 @@ Processing by FilmsController#index as HTML
 Completed 200 OK in 651ms (Views: 73.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-06-12 22:31:16 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 2499ms (Views: 653.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6MQ==" for ::1 at 2019-06-12 22:31:36 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6MQ=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 896ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starships/c3RhcnNoaXBzOjI=" for ::1 at 2019-06-12 22:31:41 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjI="}
+  Rendering starships/show.html.erb within layouts/application
+  Rendered starships/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 661ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6MQ==" for ::1 at 2019-06-12 22:31:46 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6MQ=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 694ms (Views: 85.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets/cGxhbmV0czoy" for ::1 at 2019-06-12 22:31:47 -0400
+Processing by PlanetsController#show as HTML
+  Parameters: {"id"=>"cGxhbmV0czoy"}
+  Rendering planets/show.html.erb within layouts/application
+  Rendered planets/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 699ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/cGVvcGxlOjgx" for ::1 at 2019-06-12 22:31:49 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjgx"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 669ms (Views: 76.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/ZmlsbXM6MQ==" for ::1 at 2019-06-12 22:31:51 -0400
+Processing by FilmsController#show as HTML
+  Parameters: {"id"=>"ZmlsbXM6MQ=="}
+  Rendering films/show.html.erb within layouts/application
+  Rendered films/show.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 701ms (Views: 106.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/cGVvcGxlOjE5" for ::1 at 2019-06-12 22:31:54 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"cGVvcGxlOjE5"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 670ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starships/c3RhcnNoaXBzOjEy" for ::1 at 2019-06-12 22:31:57 -0400
+Processing by StarshipsController#show as HTML
+  Parameters: {"id"=>"c3RhcnNoaXBzOjEy"}
+  Rendering starships/show.html.erb within layouts/application
+  Rendered starships/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 675ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films/" for ::1 at 2019-06-12 22:32:01 -0400
+Processing by FilmsController#index as HTML
+  Rendering films/index.html.erb within layouts/application
+  Rendered films/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 658ms (Views: 73.5ms | ActiveRecord: 0.0ms)
+
+
